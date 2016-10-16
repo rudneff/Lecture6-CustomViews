@@ -5,12 +5,8 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 public class ClockView extends View {
@@ -129,6 +125,7 @@ public class ClockView extends View {
             }
         }
     }
+
 
     @Override
     protected void onDraw(Canvas canvas) {
